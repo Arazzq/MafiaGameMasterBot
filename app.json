@@ -19,12 +19,12 @@
          "required": true
       },
        "API_HASH": {
-          "description": " Bu dəyəri https://my.telegram.org burdan ala bilərsiniz", 
+          "description": "Bu dəyəri https://my.telegram.org burdan ala bilərsiniz", 
           "value": "True",
           "required": true
      },
      "BOT_TOKEN": {
-        "description":Bu dəyəri @BotFatherdən ala bilərsiniz",
+        "description": "Bu dəyəri @BotFatherdən ala bilərsiniz",
         "value": "",
         "required": true
     
