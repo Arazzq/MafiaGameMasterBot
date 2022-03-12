@@ -1,0 +1,31 @@
+{
+     "name": "Mafia Game bot", 
+     "description": "Telegramda daha asan mafiya oynamaq üçün.",
+     "logo": "https://telegra.ph/file/c0e014ff34f34d1056627.png",
+     "keywords": [
+     "python3", 
+     "telegram", 
+     "bot",
+     "Mafia", 
+     "MafiaGameBot",
+     "telegram-bot", 
+     "pyrogram"
+     ],
+     "stack": "container",
+     "env": {
+       "API_ID": {
+         "description": "bu dəyəri https://my.telegram.org burdan ala bilərsiniz", 
+         "value":"",
+         "required": true
+      },
+       "API_HASH": {
+          "description": " Bu dəyəri https://my.telegram.org burdan ala bilərsiniz", 
+          "value": "True",
+          "required": true
+     },
+     "BOT_TOKEN": {
+        "description":Bu dəyəri @BotFatherdən ala bilərsiniz",
+        "value": "",
+        "required": true
+    
+       
