@@ -28,9 +28,9 @@ namespace MGM.BotFlow.ConsoleTest
                 .EchoReply(new OneLanguageString("Welcome"));
             
             flowEngine.AddAnyInput()
-                .EchoReply(new OneLanguageString("Please, type /Start to start"));
+                .EchoReply(new OneLanguageString("Xahiş edirəm,  /Start verin"));
             mainMenu.AddCommand("help")
-                .EchoReply(new OneLanguageString("No help for now"));
+                .EchoReply(new OneLanguageString("İndi sizə kömək edə bilmərəm"));
             mainMenu.AddCommand("sum")
                 .EchoReply(new OneLanguageString("Provide A"))
                 .AddAnyInput()
